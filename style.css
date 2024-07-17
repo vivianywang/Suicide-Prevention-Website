@@ -1,0 +1,125 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+main{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+body {
+ background-color: #073763ff; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #FF914D;
+   font-family: "Verdana";
+   font-size: 50px;
+  padding-top: 1em;
+}
+
+h2 {
+  padding-top: 0.5em;
+   color: #FFDE59;
+   font-family: "Verdana";
+   font-size: 28px;
+}
+
+p {
+   color: #eeeeeeff;
+   font-family: "Courier New";
+   font-size: 18px;
+  padding-top: 0.2em;
+}
+
+/* STYLE IMAGES */
+img {
+   max-width: 70%;
+  padding-top: 0.5em;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #FF914D;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Courier New";
+  font-weight: bold;
+  color: #eeeeeeff;
+  padding: 1em;
+}
+li a:hover {
+  color: grey
+}
+
+/* STYLE BUTTONS */
+
+.fact-generator{
+  max-width: 50%;
+  background-color: #FFDE59;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  margin: auto;
+}
+
+button {
+  font-family: "Courier New";
+  background-color: #FF914D;
+  border: 0px;
+  padding: 0.2em;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+button:hover{
+  background-color: #CB5500;
+}
+
+.graph{
+  max-width: 40%;
+}
+
+.graph-text{
+  max-width: 40%;
+  display: block;
+  margin: auto;
+}
+
+.action{
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.fact{
+  color: black;
+}
+
+.g-text{
+  max-width: 50%;
+  background-color: #FF914D;
+  font-family: "Courier New";
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  margin: auto;
+}
